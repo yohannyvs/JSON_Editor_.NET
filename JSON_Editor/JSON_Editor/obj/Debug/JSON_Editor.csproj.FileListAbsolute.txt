@@ -1,0 +1,13 @@
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\bin\Debug\JSON_Editor.exe.config
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\bin\Debug\JSON_Editor.exe
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\bin\Debug\JSON_Editor.pdb
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\bin\Debug\Newtonsoft.Json.Schema.dll
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\bin\Debug\Newtonsoft.Json.Schema.xml
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\obj\Debug\JSON_Editor.csprojResolveAssemblyReference.cache
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\obj\Debug\JSON_Editor.Editor.resources
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\obj\Debug\JSON_Editor.Properties.Resources.resources
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\obj\Debug\JSON_Editor.csproj.GenerateResource.Cache
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\obj\Debug\JSON_Editor.exe
+C:\Users\mneakira00\Documents\Progra V\JSON_Editor_.NET\JSON_Editor\JSON_Editor\obj\Debug\JSON_Editor.pdb
