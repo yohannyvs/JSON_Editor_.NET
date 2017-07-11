@@ -202,6 +202,7 @@
             this.btn_agregar.TabIndex = 18;
             this.btn_agregar.Text = "Agregar";
             this.btn_agregar.UseVisualStyleBackColor = true;
+            this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
             // btn_guardar
             // 
@@ -211,6 +212,7 @@
             this.btn_guardar.TabIndex = 19;
             this.btn_guardar.Text = "Guardar";
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
             // Editor
             // 

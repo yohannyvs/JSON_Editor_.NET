@@ -33,94 +33,15 @@ namespace JSON_Editor
             this.ultimo_trabajo = ultimo_trabajo;
         }
 
-        public int getId()
-        {
-            return this.id;
-        }
-
-        public void setId(int id)
-        {
-            this.id = id;
-        }
-
-        public string getNombre()
-        {
-            return this.nombre;
-        }
-
-        public void setNombre(string nombre)
-        {
-            this.nombre = nombre;
-        }
-
-        public string getApellido()
-        {
-            return this.apellido;
-        }
-
-        public void setApellido(string apellido)
-        {
-            this.apellido = apellido;
-        }
-
-        public string getDreccion()
-        {
-            return this.direccion;
-        }
-
-        public void setDireccion(string direccion)
-        {
-            this.direccion = direccion;
-        }
-
-        public string getCorreo()
-        {
-            return this.correo;
-        }
-
-        public void setCorreo(string correo)
-        {
-            this.correo = correo;
-        }
-
-        public string getProfesion()
-        {
-            return this.profesion;
-        }
-
-        public void setProfesion(string profesion)
-        {
-            this.profesion = profesion;
-        }
-
-        public string getPuesto_Solicitante()
-        {
-            return this.puesto_solicitante;
-        }
-
-        public void setPuesto_Solicitante(string puesto_solicitante)
-        {
-            this.puesto_solicitante = puesto_solicitante;
-        }
-
-        public int getSalario_Base()
-        {
-            return this.salario_base;
-        }
-
-        public void setSalario_Base(int salario_base)
-        {
-            this.salario_base = salario_base;
-        }
-
-        public string getUltimo_Trabajo()
-        {
-            return this.ultimo_trabajo;
-        }
-
-        public void setUltimo_Trabajo(string ultimo_trabajo)
-        {
-            this.ultimo_trabajo = ultimo_trabajo;
-        }
+        public int Id { get => id; set => id = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Apellido { get => apellido; set => apellido = value; }
+        public string Direccion { get => direccion; set => direccion = value; }
+        public string Correo { get => correo; set => correo = value; }
+        public string Profesion { get => profesion; set => profesion = value; }
+        public string Puesto_solicitante { get => puesto_solicitante; set => puesto_solicitante = value; }
+        public int Salario_base { get => salario_base; set => salario_base = value; }
+        public string Ultimo_trabajo { get => ultimo_trabajo; set => ultimo_trabajo = value; }
+        
     }
 }

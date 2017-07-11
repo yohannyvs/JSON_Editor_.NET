@@ -10,25 +10,25 @@ namespace JSON_Editor
 {
     class Metodos
     {
-        Oferentes of = new Oferentes();
-        List<Oferentes> user = new List<Oferentes>();
+        public Oferentes of = new Oferentes();
+        public List<Oferentes> user = new List<Oferentes>();
 
-        public void insertar(int id, string nombre, string apellido, string direccion, string correo, string profesion, string puesto_solicitante, int salario_base, string ultimo_trabajo)
+        public void Insertar(int id, string nombre, string apellido, string direccion, string correo, string profesion, string puesto_solicitante, int salario_base, string ultimo_trabajo)
         {
-            of.setId(id);
-            of.setNombre(nombre);
-            of.setApellido(apellido);
-            of.setDireccion(direccion);
-            of.setCorreo(correo);
-            of.setProfesion(profesion);
-            of.setPuesto_Solicitante(puesto_solicitante);
-            of.setSalario_Base(salario_base);
-            of.setUltimo_Trabajo(ultimo_trabajo);
+            of.Id = id;
+            of.Nombre = nombre;
+            of.Apellido = apellido;
+            of.Direccion = direccion;
+            of.Correo = correo;
+            of.Profesion = profesion;
+            of.Puesto_solicitante = puesto_solicitante;
+            of.Salario_base = salario_base;
+            of.Ultimo_trabajo = ultimo_trabajo;
 
             user.Add(of);
         }
 
-        public string guardar()
+        public string Guardar()
         {
             if(user.Count == 0)
             {
@@ -36,7 +36,7 @@ namespace JSON_Editor
             }
             else
             {
-                string json = JsonConvert.SerializeObject(user);
+                var json = JsonConvert.SerializeObject(user);
                 StreamWriter sw = new StreamWriter("./Oferentes.json", false, Encoding.UTF8);
                 sw.Write(json);
                 sw.Close();
