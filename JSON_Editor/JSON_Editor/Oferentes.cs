@@ -8,7 +8,7 @@ namespace JSON_Editor
 {
     class Oferentes
     {
-
+        private int id;
         private String nombre;
         private String apellido;
         private String direccion;
@@ -20,8 +20,9 @@ namespace JSON_Editor
 
         public Oferentes() { }
 
-        public Oferentes(string nombre, string apellido, string direccion, string correo, string profesion, string puesto_solicitante, int salario_base, string ultimo_trabajo)
+        public Oferentes(int id, string nombre, string apellido, string direccion, string correo, string profesion, string puesto_solicitante, int salario_base, string ultimo_trabajo)
         {
+            this.id = id;
             this.nombre = nombre;
             this.apellido = apellido;
             this.direccion = direccion;
@@ -32,9 +33,24 @@ namespace JSON_Editor
             this.ultimo_trabajo = ultimo_trabajo;
         }
 
+        public int getId()
+        {
+            return this.id;
+        }
+
+        public void setId(int id)
+        {
+            this.id = id;
+        }
+
         public string getNombre()
         {
             return this.nombre;
+        }
+
+        public void setNombre(string nombre)
+        {
+            this.nombre = nombre;
         }
 
         public string getApellido()
@@ -42,9 +58,19 @@ namespace JSON_Editor
             return this.apellido;
         }
 
+        public void setApellido(string apellido)
+        {
+            this.apellido = apellido;
+        }
+
         public string getDreccion()
         {
             return this.direccion;
+        }
+
+        public void setDireccion(string direccion)
+        {
+            this.direccion = direccion;
         }
 
         public string getCorreo()
@@ -52,9 +78,19 @@ namespace JSON_Editor
             return this.correo;
         }
 
-        public string getProfecion()
+        public void setCorreo(string correo)
+        {
+            this.correo = correo;
+        }
+
+        public string getProfesion()
         {
             return this.profesion;
+        }
+
+        public void setProfesion(string profesion)
+        {
+            this.profesion = profesion;
         }
 
         public string getPuesto_Solicitante()
@@ -62,14 +98,29 @@ namespace JSON_Editor
             return this.puesto_solicitante;
         }
 
+        public void setPuesto_Solicitante(string puesto_solicitante)
+        {
+            this.puesto_solicitante = puesto_solicitante;
+        }
+
         public int getSalario_Base()
         {
             return this.salario_base;
         }
 
+        public void setSalario_Base(int salario_base)
+        {
+            this.salario_base = salario_base;
+        }
+
         public string getUltimo_Trabajo()
         {
             return this.ultimo_trabajo;
+        }
+
+        public void setUltimo_Trabajo(string ultimo_trabajo)
+        {
+            this.ultimo_trabajo = ultimo_trabajo;
         }
     }
 }
