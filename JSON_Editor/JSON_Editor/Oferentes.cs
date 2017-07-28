@@ -22,15 +22,15 @@ namespace JSON_Editor
 
         public Oferentes(int id, string nombre, string apellido, string direccion, string correo, string profesion, string puesto_solicitante, int salario_base, string ultimo_trabajo)
         {
-            this.id = id;
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.direccion = direccion;
-            this.correo = correo;
-            this.profesion = profesion;
-            this.puesto_solicitante = puesto_solicitante;
-            this.salario_base = salario_base;
-            this.ultimo_trabajo = ultimo_trabajo;
+            this.Id = id;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Direccion = direccion;
+            this.Correo = correo;
+            this.Profesion = profesion;
+            this.Puesto_solicitante = puesto_solicitante;
+            this.Salario_base = salario_base;
+            this.Ultimo_trabajo = ultimo_trabajo;
         }
 
         public int Id { get => id; set => id = value; }
@@ -42,6 +42,5 @@ namespace JSON_Editor
         public string Puesto_solicitante { get => puesto_solicitante; set => puesto_solicitante = value; }
         public int Salario_base { get => salario_base; set => salario_base = value; }
         public string Ultimo_trabajo { get => ultimo_trabajo; set => ultimo_trabajo = value; }
-        
     }
 }
